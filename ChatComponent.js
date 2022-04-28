@@ -33,7 +33,7 @@ useEffect(() => {
       }
       chat.forEach(message => {
         if (message.senderId === value || (userData.userId === message.senderId && message.recipientId === value) ) {
-          // to do
+          
           chatObject.messages.push(message)
         }
       })
